@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     );
 
     // cURLを使用してPOSTリクエストを送信
-    $ch = curl_init('https://example.com/receive.php'); // 受信側のURL
+    $ch = curl_init('https://kakumegane.github.io/login/login.php'); // 受信側のURL
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 
